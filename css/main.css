@@ -13,6 +13,11 @@ p{
     margin: 0;
     line-height: 1.5em;
 }
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
 ul,li{
     padding: 0;
     margin: 0;
@@ -20,8 +25,18 @@ ul,li{
 }
 h1{
     font-size: 23px;
-    font-weight: bold;
     text-transform: uppercase;
+}
+h2{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+h4{
+    font-size: 16px;
 }
 form input{
     border: 1px solid #8693b6;
@@ -71,9 +86,7 @@ button{
     color: #fff;
     padding: 46px 0 42px 0;
 }
-/*.navigation a{
-    color: #fff;
-}*/
+/*Навигация*/
 .logo{
     font-weight: bold;
     font-size: 14px;
@@ -112,18 +125,41 @@ button{
     text-align: center;
     font-family: Tahoma,Arial,sans-serif;
 }
-.mainPage .container{
-    display: block;
-}
-.testCards{
-    display: flex;
-}
+/*Основная часть основной страницы*/
 .mainPage
 {
     background: #f1f1f2;
 }
+.mainPage .container{
+    display: block;
+}
+.mainHeader p{
+    width: 370px;
+}
+.testCards{
+    display: flex;
+}
+.tc{
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.tc2{
+    box-shadow: 0 0 50px rgba(88, 60, 60, 0.77);
+}
+/*Вторая секция*/
+.secondSection{
+    /*width: 500px;*/
+    display: flex;
+}
+.secondSectionRight{
+    width: 530px;
+}
 .sendForm{
     /*display: block;*/
+}
+.messageField{
+    width: 350px;
+    height: 100px;
 }
 .sendButton{
     background: #ffef28;
@@ -139,37 +175,30 @@ button{
     font-family: Tahoma,Arial,sans-serif;
     margin-top: 15px;
 }
-.secondSection{
-    /*width: 500px;*/
-    display: flex;
- }
-.secondSectionRight{
-    width: 530px;
-}
-.messageField{
-    width: 350px;
-    height: 100px;
-}
+/*Карточка во второй секции*/
 .sSectionCard{
     color: #fff;
     background-color: #184c6b;
+    padding: 20px 20px 20px 20px;
 }
 .sSectionCard h3{
     margin: 20px 0 20px 30px;
 }
+/*две колонки*/
 .superCard{
     margin-left: 30px;
     display: flex;
-    width: 550px;
+    width: 530px;
+    border: 2px solid green;
 }
 .sCardLeftCol{
-    width: 200px;
-    margin-left: 20px;
+    width: 230px;
+    /*margin-left: 20px;*/
 }
 .sCImage{
     margin-top: 20px;
 }
 .sCardRightCol{
-    width: 200px;
+    width: 230px;
     margin-left: 20px;
 }
