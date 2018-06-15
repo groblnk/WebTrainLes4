@@ -46,18 +46,22 @@
         <div class="container">
             <div class="mainHeader">
                 <h1>Главный заголовок страницы</h1>
-                <p>Some text</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor</p>
             </div>
             <div class="testCards">
-                <div class="tc1 tc"></div>
+                <div class="tc1 tc">
                     <h4>Это текстовая карточка #1</h4>
-                    <p>some text from card 1 </p>
-                <div class="tc2 tc"></div>
-                    <h4>Это текстовая карточка #1</h4>
-                    <p>some text from card 1 </p>
-                <div class="tc3 tc"></div>
-                    <h4>Это текстовая карточка #1</h4>
-                    <p>some text from card 1 </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                </div>
+                <div class="tc2 tc">
+                    <h4>Это текстовая карточка #2</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                </div>
+                <div class="tc3 tc">
+                    <h4>Это текстовая карточка #3</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                    <a href="#" class="moreInfoTc3">Узнать больше</a>
+                </div>
             </div>
 
         </div>
@@ -65,26 +69,44 @@
 </header>
 <section>
     <div class="container">
-        <div>
-            <h2>Заголовок второй секции</h2>
-            <form action="#">
-                <input type="text">
-                <input type="text">
-                <button></button>
-            </form>
-        </div>
-        <div>
-            <h3>Заголовок карточки</h3>
-            <div>
-                <p>колонка текста 1</p>
-                <img src="#" alt="">
+        <div class="secondSection">
+            <div class="secondSectionRight">
+                <h2>Заголовок второй секции</h2>
+                <form class="sendForm" action="#">
+                    <input type="text" placeholder="Имя" name="name" required>
+                    <input type="email" placeholder="E-mail" name="email" required>
+                    <input type="tel" placeholder="Телефон" name="phone" required>
+                    <input type="text" placeholder="Сообщение" name="message" class="messageField" required>
+                    <button class="sendButton">Отправить</button>
+                </form>
             </div>
-            <div>
-                <p>колонка текста 2</p>
+            <div class="sSectionCard">
+                <h3>Заголовок карточки</h3>
+                <div class="superCard">
+                    <div class="sCardLeftCol">
+                        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <img class="sCImage" src="img/web_design_hong_kong_trends_2018_ilustration.png" alt="">
+                    </div>
+                    <div class="sCardRightCol">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<footer></footer>
+<footer>
+    <div class="footer">
+        <div class="container">
+            <p class="rights">Все права защищены</p>
+            <button class="contB"></button>
+            <button class="roundB"></button>
+            <button class="cont"></button>
+            <p class="whiteText">Отрывок текста на белом фоне</p>
+            <p>Готово, а ты жопка!</p>
+
+        </div>
+    </div>
+</footer>
 </body>
 </html>

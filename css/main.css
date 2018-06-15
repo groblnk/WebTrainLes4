@@ -4,24 +4,47 @@ body{
     padding: 0;
     margin: 0;
 }
+div,p,form,input,a,span,button{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /* отключаем отступы в браузерах по умолчанию*/
+}
 p{
     margin: 0;
+    line-height: 1.5em;
 }
 ul,li{
     padding: 0;
     margin: 0;
-    display: block;
+    display: block; /*убираем точки*/ /*wtf?* при этом перенос не действует??*/
 }
-
 h1{
     font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
 }
-
+form input{
+    border: 1px solid #8693b6;
+    font-size: 13px;
+    width: 213px;
+    padding: 13px 18px;
+    background: transparent;
+    font-family: Tahoma,Arial,sans-serif;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+}
+button{
+    cursor: pointer;/*курсор при наведении*/
+}
 .header{
 }
-
+.container{
+    width: 960px;
+    margin: 0 auto;
+    /*border: 2px solid red;*/
+    align-items: center; /*центруем по вертикали*/
+}
 .header .container{
     display: -webkit-flex;
     display: -moz-flex;
@@ -30,8 +53,21 @@ h1{
     display: flex;
     justify-content: space-between; /*распространяем равномерно*/
 }
+.footer .container{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between; /*распространяем равномерно*/
+}
 .navigation{
-    background: #4c2deb;
+    background: #455991;
+    color: #fff;
+    padding: 46px 0 42px 0;
+}
+.footer{
+    background: #455991;
     color: #fff;
     padding: 46px 0 42px 0;
 }
@@ -64,8 +100,7 @@ h1{
 .phone{
     font-size: 16px;
 }
-
-.bot{
+.button{
     background: #fff;
     font-weight: bold;
     font-size: 13px;
@@ -73,28 +108,68 @@ h1{
     text-decoration: none;
     width: 154px;
     padding: 10px 0;
-    display: block;
+    display: block;/*wtf*/
     text-align: center;
+    font-family: Tahoma,Arial,sans-serif;
 }
-
-.container{
-    width: 960px;
-    margin: 0 auto;
-    /*border: 2px solid red;*/
-    align-items: center; /*центруем по вертикали*/
+.mainPage .container{
+    display: block;
+}
+.testCards{
+    display: flex;
 }
 .mainPage
 {
     background: #f1f1f2;
 }
-
-.mainPage .container{
-    display: block;
+.sendForm{
+    /*display: block;*/
 }
-.mainPage .testCards{
-    /*display: flex;*/
+.sendButton{
+    background: #ffef28;
+    font-weight: bold;
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+    width: 100px;
+    padding: 17px 17px;
+    display: block;/*wtf*/
+    text-align: center;
+    border: none;
+    font-family: Tahoma,Arial,sans-serif;
+    margin-top: 15px;
 }
-
-.tc1{
-    display: block;
+.secondSection{
+    /*width: 500px;*/
+    display: flex;
+ }
+.secondSectionRight{
+    width: 530px;
+}
+.messageField{
+    width: 350px;
+    height: 100px;
+}
+.sSectionCard{
+    color: #fff;
+    background-color: #184c6b;
+}
+.sSectionCard h3{
+    margin: 20px 0 20px 30px;
+}
+.superCard{
+    margin-left: 30px;
+    display: flex;
+    width: 550px;
+}
+.sCardLeftCol{
+    width: 200px;
+    margin-left: 20px;
+}
+.sCImage{
+    margin-top: 20px;
+}
+.sCardRightCol{
+    width: 200px;
+    margin-left: 20px;
 }
