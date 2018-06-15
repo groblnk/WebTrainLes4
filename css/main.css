@@ -1,5 +1,5 @@
 body{
-    font-family: Tahoma,Arial,sans-serif;
+    font-family: Arial,sans-serif;
     color: black;
     padding: 0;
     margin: 0;
@@ -24,30 +24,66 @@ ul,li{
     display: block; /*убираем точки*/ /*wtf?* при этом перенос не действует??*/
 }
 h1{
+    width: 420px;
+    height: 26px;
+    color: #272c2f;
+    font-family: Arial;
     font-size: 23px;
+    font-weight: 700;
+    line-height: 22px;
     text-transform: uppercase;
+    margin: 73px 0 15px 9px;
+    letter-spacing: 0.018em;
 }
 h2{
-    font-size: 20px;
+    width: 295px;
+    height: 20px;
+    color: #272c2f;
+    font-family: Arial;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
     text-transform: uppercase;
 }
 h3{
-    font-size: 18px;
+    width: 207px;
+    height: 12px;
+    color: #c0ddee;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
     text-transform: uppercase;
 }
 h4{
-    font-size: 16px;
+    /*font-size: 16px;*/
+    width: 238px;
+    height: 15px;
+    color: #272c2f;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
 }
 form input{
     border: 1px solid #8693b6;
     font-size: 13px;
-    width: 213px;
+    width: 239px;
+    height: 46px;
     padding: 13px 18px;
-    background: transparent;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    /*background: transparent;*/
     font-family: Tahoma,Arial,sans-serif;
     cursor: pointer;
     display: block;
     margin-bottom: 10px;
+    opacity: 0.54;
+    color: #272c2f;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
 }
 button{
     cursor: pointer;/*курсор при наведении*/
@@ -79,7 +115,8 @@ button{
 .navigation{
     background: #455991;
     color: #fff;
-    padding: 46px 0 42px 0;
+    padding: 25px 0 60px 0;
+    height: 80px;
 }
 .footer{
     background: #455991;
@@ -88,11 +125,17 @@ button{
 }
 /*Навигация*/
 .logo{
-    font-weight: bold;
-    font-size: 14px;
+    /*font-weight: bold;*/
+    font-family: Arial;
     text-decoration: none;
     text-transform: uppercase;
-    color: #fff;
+    width: 80px;
+    height: 13px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 2px 0 10px 0;
 }
 .menu {
     display: -webkit-flex;
@@ -101,17 +144,33 @@ button{
     display: -o-flex;
     display: flex;
     padding: 0;
+    width: 358px;
+    height: 16px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    text-decoration: underline;
+    font-family: Arial;
+    margin: 7px 0 10px 63px;
 }
 
 .menu li{
-    margin-right: 14px;
+    margin-right: 29px;
 }
 .menu li a{
     font-size: 15px;
     color: #fff;
 }
 .phone{
-    font-size: 16px;
+    width: 160px;
+    height: 17px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: Arial;
+    letter-spacing: 0.015em;
 }
 .button{
     background: #fff;
@@ -134,31 +193,53 @@ button{
     display: block;
 }
 .mainHeader p{
-    width: 370px;
+    /*width: 370px;*/
+    width: 335px;
+    height: 36px;
+    color: #828899;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 10px;
+    letter-spacing: 0.02em;
 }
 .testCards{
     display: flex;
+    margin: 45px 0px 0 18px;;
 }
 .tc{
-    margin-right: 10px;
     padding: 20px;
-
+    width: 308px;
+    height: 222px;
+    color: #272c2f;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
 }
 .tc p{
     margin: 10px 0;
 }
 .tc1, .tc3{
-    border: 1px solid black;
+    border: 1px solid #d6d6d6;
 }
 .tc1,.tc2{
     height: 210px;
 }
+
 .tc2{
-    box-shadow: 0 -5px 50px rgba(88, 60, 60, 0.77);
-    border-radius: 10px ;
+    /*box-shadow: 0 -5px 50px rgba(88, 60, 60, 0.77);*/
+    /*border-radius: 10px ;*/
+    border-radius: 15px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.33);
+    margin: 0 10px 0 10px;
 }
 .tc3{
-    height: 240px;
+    width: 308px;
+    height: 250px;
+    background-color: white;
+    border: 1px solid #d6d6d6;
 }
 
 .moreInfoTc3{
@@ -179,28 +260,45 @@ button{
     /*display: block;*/
 }
 .messageField{
-    width: 350px;
-    height: 100px;
+    width: 359px;
+    height: 124px;
+    background-color: white;
+    border: 1px solid #d6d6d6;
+    opacity: 0.54;
+    color: #272c2f;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    padding: 12px;
 }
 .sendButton{
-    background: #ffef28;
-    font-weight: bold;
-    font-size: 13px;
-    color: #000000;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #272c2f;
     text-decoration: none;
-    width: 120px;
-    padding: 17px 17px;
+    width: 166px;
+    height: 43px;
+    background-color: #ebce0d;
+    padding: 13px 0;
     display: block;/*wtf*/
     text-align: center;
     border: none;
-    font-family: Tahoma,Arial,sans-serif;
+    font-family: Arial;
     margin-top: 15px;
+
 }
 /*Карточка во второй секции*/
 .sSectionCard{
-    color: #fff;
+    /*color: #fff;*/
+    /*background-color: #184c6b;*/
+    /*padding: 20px 20px 20px 20px;*/
+    width: 546px;
+    height: 456px;
     background-color: #184c6b;
-    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
 }
 .sSectionCard h3{
     margin: 20px 0 20px 30px;
@@ -209,18 +307,75 @@ button{
 .superCard{
     margin: 0 10px;
     display: flex;
-    width: 530px;
+    width: 520px;
     border: 2px solid green;
     justify-content: space-between;
 }
 .sCardLeftCol{
-    width: 230px;
+    /*width: 230px;*/
+    width: 207px;
+    height: 179px;
+    color: #c0ddee;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
     /*margin-left: 20px;*/
 }
 .sCImage{
     margin-top: 20px;
 }
 .sCardRightCol{
-    width: 230px;
-    margin-left: 20px;
+    /*width: 230px;*/
+    /*margin-left: 20px;*/
+    width: 207px;
+    height: 266px;
+    color: #c0ddee;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+/*Футер*/
+.contB{
+    width: 145px;
+    height: 37px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    background: #455991;
+}
+
+.roundB{
+    /*width: 110px;*/
+    /*font-height: 11px;*/
+    width: 148px;
+    height: 37px;
+    border: 1px solid white;
+    border-radius: 19px;
+    color: white;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    background: #455991;
+}
+.whiteText{
+    width: 229px;
+    height: 40px;
+    background-color: white;
+    border-radius: 3px;
+    /*width: 182px;*/
+    /*height: 11px;*/
+    color: #455991;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 0;
 }
