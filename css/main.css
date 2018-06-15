@@ -128,7 +128,7 @@ button{
 /*Основная часть основной страницы*/
 .mainPage
 {
-    background: #f1f1f2;
+    /*background: #f1f1f2;*/
 }
 .mainPage .container{
     display: block;
@@ -140,12 +140,33 @@ button{
     display: flex;
 }
 .tc{
-    border: 1px solid black;
     margin-right: 10px;
+    padding: 20px;
+
+}
+.tc p{
+    margin: 10px 0;
+}
+.tc1, .tc3{
+    border: 1px solid black;
+}
+.tc1,.tc2{
+    height: 210px;
 }
 .tc2{
-    box-shadow: 0 0 50px rgba(88, 60, 60, 0.77);
+    box-shadow: 0 -5px 50px rgba(88, 60, 60, 0.77);
+    border-radius: 10px ;
 }
+.tc3{
+    height: 240px;
+}
+
+.moreInfoTc3{
+    margin-top: 10px;
+    display: block;
+}
+
+
 /*Вторая секция*/
 .secondSection{
     /*width: 500px;*/
@@ -167,7 +188,7 @@ button{
     font-size: 13px;
     color: #000000;
     text-decoration: none;
-    width: 100px;
+    width: 120px;
     padding: 17px 17px;
     display: block;/*wtf*/
     text-align: center;
@@ -186,10 +207,11 @@ button{
 }
 /*две колонки*/
 .superCard{
-    margin-left: 30px;
+    margin: 0 10px;
     display: flex;
     width: 530px;
     border: 2px solid green;
+    justify-content: space-between;
 }
 .sCardLeftCol{
     width: 230px;
