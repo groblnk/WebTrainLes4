@@ -245,6 +245,14 @@ button{
 .moreInfoTc3{
     margin-top: 10px;
     display: block;
+    width: 116px;
+    height: 11px;
+    color: #22a2ec;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    text-decoration: none;
 }
 
 
@@ -252,9 +260,10 @@ button{
 .secondSection{
     /*width: 500px;*/
     display: flex;
+    margin: 50px 0 0 0;
 }
 .secondSectionRight{
-    width: 530px;
+    width: 411px;
 }
 .sendForm{
     /*display: block;*/
@@ -295,7 +304,7 @@ button{
     /*color: #fff;*/
     /*background-color: #184c6b;*/
     /*padding: 20px 20px 20px 20px;*/
-    width: 546px;
+    width: 557px;
     height: 456px;
     background-color: #184c6b;
     border-radius: 10px;
