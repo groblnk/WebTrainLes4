@@ -44,6 +44,7 @@ h2{
     font-weight: 700;
     line-height: 22px;
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 h3{
     width: 207px;
@@ -260,17 +261,26 @@ button{
 .secondSection{
     /*width: 500px;*/
     display: flex;
-    margin: 50px 0 0 0;
+    margin: 50px 0 80px 0;
 }
 .secondSectionRight{
     width: 411px;
+}
+.secondSectionRight p{
+    width: 198px;
+    height: 11px;
+    color: #84898d;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
 }
 .sendForm{
     /*display: block;*/
 }
 .messageField{
-    width: 359px;
-    height: 124px;
+    width: 335px;
+    height: 104px;
     background-color: white;
     border: 1px solid #d6d6d6;
     opacity: 0.54;
@@ -296,7 +306,7 @@ button{
     text-align: center;
     border: none;
     font-family: Arial, sans-serif;
-    margin-top: 15px;
+    margin: 15px 0;
 
 }
 /*Карточка во второй секции*/
@@ -310,14 +320,14 @@ button{
     border-radius: 10px;
 }
 .sSectionCard h3{
-    margin: 20px 0 20px 30px;
+    margin: 41px 0 29px 47px;
 }
 /*две колонки*/
 .superCard{
     margin: 0 10px;
     display: flex;
     width: 520px;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     justify-content: space-between;
 }
 .sCardLeftCol{
@@ -329,10 +339,10 @@ button{
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-    /*margin-left: 20px;*/
+    margin-left: 36px;
 }
 .sCImage{
-    margin-top: 20px;
+    margin-top: 46px;
 }
 .sCardRightCol{
     /*width: 230px;*/
@@ -344,8 +354,18 @@ button{
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
+    margin: 0 29px 0 0;
 }
 /*Футер*/
+.rights{
+    width: 135px;
+    height: 13px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+}
 .contB{
     width: 145px;
     height: 37px;
@@ -382,7 +402,7 @@ button{
     /*height: 11px;*/
     color: #455991;
     font-family: Arial, sans-serif;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
